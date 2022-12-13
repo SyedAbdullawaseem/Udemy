@@ -19,7 +19,7 @@ const AddUser = (props) => {
     const enteredUserAge = ageInputRef.current.value;
     const collegeName=collegeInputref.current.value
 
-    if (enteredName.trim().length === 0 || enteredUserAge.trim().length === 0 || collegeName===0) {
+    if (enteredName.trim().length === 0 || enteredUserAge.trim().length === 0 || collegeName.trim().lengthg===0) {
       seterror({
         title: "Invalid input",
         message: "Please enter valid details",
